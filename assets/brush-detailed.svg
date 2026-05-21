@@ -1,0 +1,26 @@
+<svg width="700" height="700" viewBox="0 0 700 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g transform="rotate(-18 350 350)">
+<rect x="310" y="60" width="80" height="270" rx="8" fill="#111111"/>
+<g>
+<rect x="280" y="300" width="140" height="110" rx="14" fill="url(#metal)" stroke="#9A9A9A" stroke-width="6"/>
+<line x1="295" y1="330" x2="405" y2="330" stroke="#8A8A8A" stroke-width="5"/>
+<line x1="295" y1="360" x2="405" y2="360" stroke="#8A8A8A" stroke-width="5"/>
+<circle cx="305" cy="385" r="6" fill="#7A7A7A"/>
+<circle cx="395" cy="385" r="6" fill="#7A7A7A"/>
+</g>
+<path d="M250 410H450V610C450 630 434 646 414 646H286C266 646 250 630 250 610V410Z" fill="url(#wood)"/>
+<path d="M255 440C300 455 400 455 445 440" stroke="#C99B61" stroke-width="4" opacity="0.4"/>
+<path d="M255 480C300 495 400 495 445 480" stroke="#C99B61" stroke-width="4" opacity="0.25"/>
+</g>
+<defs>
+<linearGradient id="metal" x1="280" y1="300" x2="420" y2="410" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F8F8F8"/>
+<stop offset="0.5" stop-color="#B8B8B8"/>
+<stop offset="1" stop-color="#F5F5F5"/>
+</linearGradient>
+<linearGradient id="wood" x1="250" y1="410" x2="450" y2="646" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F4D2A5"/>
+<stop offset="1" stop-color="#C28B4E"/>
+</linearGradient>
+</defs>
+</svg>
