@@ -3,60 +3,65 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>3в1 Грунт-эмаль — шаблон карточки WB</title>
+  <title>3в1 Грунт-эмаль — шаблон Wildberries</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <main class="marketplace-card" aria-label="Шаблон инфографики товара">
-    <section class="poster">
-      <div class="content">
-        <header class="hero-title">
-          <div><span class="title-main">3в1</span> <span class="title-accent">ГРУНТ-ЭМАЛЬ</span></div>
+  <main class="wb-card">
+    <section class="poster" aria-label="Инфографика грунт-эмаль 3в1">
+      <div class="right-visual" aria-hidden="true">
+        <div class="white-metal"></div>
+        <div class="rust-metal"></div>
+        <div class="black-paint"></div>
+        <img class="main-brush" src="assets/brush-detailed.svg" alt="" />
+      </div>
+
+      <div class="left-content">
+        <header class="headline">
+          <h1><span>3в1</span> <strong>ГРУНТ-ЭМАЛЬ</strong></h1>
           <p>НАДЕЖНАЯ ЗАЩИТА МЕТАЛЛА ОТ КОРРОЗИИ</p>
         </header>
 
-        <div class="features">
-          <article class="feature-card">
-            <div class="icon-circle"><img src="assets/icons/shield-drop.svg" alt="" /></div>
-            <div class="feature-text">
+        <div class="feature-list">
+          <article class="feature feature-1">
+            <div class="round-icon"><img src="assets/icons/shield-drop.svg" alt="" /></div>
+            <div class="feature-box">
               <h2>АНТИКОРРОЗИЙНЫЙ<br />ГРУНТ</h2>
-              <p>Глубоко проникает в металл<br /><span>и останавливает ржавчину</span></p>
+              <div class="gold-line"></div>
+              <p>Глубоко проникает в металл<br /><em>и останавливает ржавчину</em></p>
             </div>
           </article>
 
-          <article class="feature-card">
-            <div class="icon-circle"><img src="assets/icons/brush.svg" alt="" /></div>
-            <div class="feature-text">
+          <article class="feature feature-2">
+            <div class="round-icon"><img src="assets/icons/brush.svg" alt="" /></div>
+            <div class="feature-box">
               <h2>ПРЕОБРАЗОВАТЕЛЬ<br />РЖАВЧИНЫ</h2>
-              <p>Преобразует ржавчину<br /><span>в прочный грунтовочный слой</span></p>
+              <div class="gold-line short"></div>
+              <p>Преобразует ржавчину<br /><em>в прочный грунтовочный слой</em></p>
             </div>
           </article>
 
-          <article class="feature-card">
-            <div class="icon-circle"><img src="assets/icons/sparkles.svg" alt="" /></div>
-            <div class="feature-text">
+          <article class="feature feature-3">
+            <div class="round-icon"><img src="assets/icons/sparkles.svg" alt="" /></div>
+            <div class="feature-box compact">
               <h2>ФИНИШНАЯ<br />ЭМАЛЬ</h2>
-              <p>Создает прочное, ровное<br /><span>и эстетичное покрытие</span></p>
+              <div class="gold-line medium"></div>
+              <p>Создает прочное, ровное<br /><em>и эстетичное покрытие</em></p>
             </div>
           </article>
         </div>
 
-        <div class="bottom-badge">
-          <div class="badge-top">
+        <section class="bottom-card">
+          <div class="black-row">
             <img src="assets/icons/shield-check.svg" alt="" />
-            <p><strong>ПРЕОБРАЗУЕТ РЖАВЧИНУ</strong><br /><span>в прочный грунтовочный слой</span></p>
+            <p><b>ПРЕОБРАЗУЕТ РЖАВЧИНУ</b><br /><span>в прочный грунтовочный слой</span></p>
           </div>
-          <div class="badge-bottom">
-            <span class="check">✓</span>
-            <p>ПРЕДОТВРАЩАЕТ<br />ДАЛЬНЕЙШЕЕ РАЗВИТИЕ КОРРОЗИИ</p>
+          <div class="gold-row">
+            <div class="big-check">✓</div>
+            <p>ПРЕДОТВРАЩАЕТ<br />ДАЛЬНЕЙШЕЕ ПРЕОБРАЗОВАНИЕ<br />И РАЗВИТИЕ КОРРОЗИИ</p>
           </div>
-        </div>
+        </section>
       </div>
-
-      <aside class="visual-side" aria-hidden="true">
-        <div class="metal-panel"></div>
-        <img class="brush-photo" src="assets/brush.svg" alt="" />
-      </aside>
     </section>
   </main>
 </body>
